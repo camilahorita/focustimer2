@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+.numbers span{
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(10rem, 10rem + 2vw ,12.7rem);
+  line-height: 14.8rem;   
+}
+main {
+  display: flex;
+  gap:19.2rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 33.6rem;
+  margin-top: 18%;
+}
+
+.timer {
+  height: 21.3rem;
+  display: flex;
+  gap: 1.7rem;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.buttonsTimer {
+  display: flex;
+  gap: 4.0rem;
+  justify-content: center;
+}
+.buttonsSounds {
+  display: grid;
+  grid-template-areas: "A B"
+  "C D";
+  gap: 3.2rem;
+  
+}
+
+.buttonsSounds .forest {
+  grid-area: "A";
+}
+
+.buttonsSounds .rain {
+  grid-area: "B";
+}
+.buttonsSounds .coffe {
+  grid-area: "C";
+}
+.buttonsSounds .fire {
+  grid-area: "D";
+}
